@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--onMouseClicked="#setMark"-->
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.shape.Line?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+    <columnConstraints>
+        <ColumnConstraints />
+    </columnConstraints>
+    <rowConstraints>
+        <RowConstraints />
+    </rowConstraints>
+    <children>
+        <AnchorPane fx:id="pane" prefHeight="600.0" prefWidth="600.0">
+            <children>
+                <Line endX="200.0" endY="550.0" startX="200.0" startY="50.0" />
+                <Line endX="400.0" endY="550.0" startX="400.0" startY="50.0" />
+                <Line endX="550.0" endY="200.0" startX="50.0" startY="200.0" />
+                <Line endX="550.0" endY="400.0" startX="50.0" startY="400.0" />
+            </children>
+        </AnchorPane>
+    </children>
+</GridPane>
