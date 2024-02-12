@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+
+<AnchorPane fx:id="pane" prefHeight="600.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.project.xogame.GameController">
+    <children>
+        <Line endX="200.0" endY="550.0" startX="200.0" startY="50.0" />
+        <Line endX="400.0" endY="550.0" startX="400.0" startY="50.0" />
+        <Line endX="550.0" endY="200.0" startX="50.0" startY="200.0" />
+        <Line endX="550.0" endY="400.0" startX="50.0" startY="400.0" />
+    </children>
+</AnchorPane>
